@@ -45,3 +45,15 @@ int lcs( string &X, string &Y, int m, int n )
 
 	return L[m][n];
 }
+int main() 
+{ 
+    char X[] = "AGGTAB"; 
+    char Y[] = "GXTXAYB"; 
+      
+    int m = strlen(X); 
+    int n = strlen(Y); 
+      
+    cout<<"Length of LCS is "<< lcs( X, Y, m, n ) ; 
+      
+    return 0; 
+} 
